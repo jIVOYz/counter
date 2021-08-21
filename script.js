@@ -5,7 +5,6 @@ let add = document.getElementById('plus');
 let remove = document.getElementById('minus');
 let reset = document.getElementById('reset');
 
-
     add.addEventListener("click", function () {
         integer += 1;
         result.innerHTML = integer;
@@ -22,3 +21,4 @@ let reset = document.getElementById('reset');
         result.innerHTML = integer;
     });
 
+// Save Result 

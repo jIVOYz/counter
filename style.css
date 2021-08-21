@@ -120,3 +120,22 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid red;
   color: #FFF;
 }
+
+#saveResult {
+  width: 200px;
+  height: 30px;
+  background-color: orange;
+  border: 2px solid red;
+  color: #FFF;
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    overflow: hidden;
+  }
+  .container {
+    width: 600px;
+    display: grid;
+    place-items: center;
+  }
+}
